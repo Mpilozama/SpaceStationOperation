@@ -6,7 +6,7 @@ public class Airlock {
     
     public Airlock(String id) {
         this.id = id;
-        this.isLocked = true; // Start locked by default
+        this.isLocked = true; 
     }
     
     public String getId() { return id; }
@@ -15,7 +15,7 @@ public class Airlock {
     public boolean isLocked() { return isLocked; }
     public void setLocked(boolean locked) { isLocked = locked; }
     
-    // Helper methods (more meaningful)
+  
     public void lock() {
         this.isLocked = true;
     }
