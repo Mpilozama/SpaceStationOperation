@@ -1,9 +1,9 @@
 package main.java.com.spacestation.model;
 
 public class Drone {
-    private String id;
-    private String status;
-    private String location;
+    private String id;//to identify drone
+    private String status;// checking availability of drone
+    private String location;// to track current drone location
 
     public Drone(String id, String status, String location) {
         this.id = id;
